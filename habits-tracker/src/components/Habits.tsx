@@ -3,5 +3,5 @@ interface HabitProps {
 }
 
 export const Habit = ({completed}: HabitProps) => {
-  return <p>{completed}</p>;
+  return <div className="bg-zinc-900 text-white w-5 h-5 rounded m-2 flex items-center justify-center">{completed}</div>;
 };

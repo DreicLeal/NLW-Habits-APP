@@ -1,7 +1,7 @@
-import "./App.css";
+import "./styles/global.css";
 import { Habit } from "./components/Habits";
 
-function App() {
+export const App = () => {
   return (
     <>
       <Habit completed={3} />
@@ -9,6 +9,4 @@ function App() {
       <Habit completed={12} />
     </>
   );
-}
-
-export default App;
+};
